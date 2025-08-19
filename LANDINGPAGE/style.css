@@ -1,12 +1,12 @@
 
-.img-herois {
+/* .img-herois {
     width: 80%;
     height: 427px;
     object-fit: cover;
   
-}
+} */
 /* Hero section centralizada */
-.hero-section {
+/* .hero-section {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -20,9 +20,9 @@
     font-family: 'Inter';
     font-weight: 400;
     font-style: normal;
-}
+} */
 
-.hero-section p {
+/* .hero-section p {
     display: flex;
     flex-direction: column;
     font-size: 32px;
@@ -35,9 +35,9 @@
     display: flex;
     flex-direction: column;
     width: 80%;
-}
+} */
 
-* {
+/* * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -47,10 +47,10 @@ body {
     font-family: Arial, sans-serif;
     background-color: #d9d9d9;
     color: #333;
-}
+} */
 
 /* Menu horizontal */
-.menu-horizontal {
+/* .menu-horizontal {
     background-color: #3750b3;
     align-items: center;
     justify-content: space-between;
@@ -67,16 +67,74 @@ body {
     padding: 10px 20px;
     margin-inline-start: 40px;
     width: 20%;
-}
+} */
 
-.menu-items {
+/* .menu-items {
     display: flex;
     color: white;
     font-size: 12px;
     padding: 10px 20px;
     margin-inline-end: 40px;
     width: 20%;
+} */
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter";
 }
 
+.cabecalho {
+    
+    width: 100%;
+    height: 71px;
+    background-color: #3750b3;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    padding-left: 120px;
+    padding-right: 120px;
+}
+
+.logo {
+    color: white;
+    text-decoration: none;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    margin-left: 18px;
+}
+
+.conteudo {
+    padding-left: 120px;
+    padding-right: 120px;
+}
+
+.fundo {
+    background-image: url("../LANDINGPAGE/assests/img.jpg");
+    width: 100%;
+    height: 427px;
+    background-size: cover;
+    background-position: center;
+
+    margin-top: 100px;
+}
+
+.titulo {
+
+    margin-top: 80px;
+    font-size: 64px;
+    font-weight: normal;
+}
+
+.descricao {
+    font-size: 32px;
+}
 
 
